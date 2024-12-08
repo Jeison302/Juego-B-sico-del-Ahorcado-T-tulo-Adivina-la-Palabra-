@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego del Ahorcado</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="hangman-container">
+    <h2>Juego del Ahorcado</h2>
+    <p id="word">Palabra: <span id="currentWord">_ _ _ _ _</span></p>
+    <p>Intentos restantes: <span id="attempts">6</span></p>
+    <p>Letras usadas: <span id="usedLetters">Ninguna</span></p>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h2 id="modalMessage"></h2>
+      <button id="restartButton">Jugar de Nuevo</button>
+    </div>
+  </div>
+
+  <script src="hangman.js"></script>
+</body>
+</html>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
